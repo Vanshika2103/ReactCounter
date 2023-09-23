@@ -1,0 +1,35 @@
+.counter-container {
+  background-color: rgb(120, 15, 41);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-app {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 3px 3px 4px rgba(69, 2, 2, 0.637);
+  color: rgb(120, 15, 41);
+}
+
+.btn {
+  padding: 10px 5px;
+  margin: 5px;
+  width: 180px;
+  border: none;
+  background-color: rgb(156, 11, 35);
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: crimson;
+  border: 1px solid crimson;
+  transition: 0.3s;
+  transform: scale(1.032);
+}
